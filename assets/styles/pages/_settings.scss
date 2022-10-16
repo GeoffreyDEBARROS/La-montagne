@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: "font1";
+    src: url(assets/fonts/Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "font2";
+    src: url(assets/fonts/Merriweather-Light.ttf);
+}
+
+$font1: "font1", sans-serif;
+$font2: "font2", sans-serif;
+
+$color1: rgb(232, 232, 232);
+$color2: rgb(12, 12, 12);
+$color2: rgb(98, 98, 98);
+
