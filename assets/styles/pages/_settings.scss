@@ -1,11 +1,11 @@
 
 @font-face {
     font-family: "font1";
-    src: url(assets/fonts/Inter-ExtraBold.ttf);
+    src: url(../fonts/Inter-ExtraBold.ttf);
 }
 @font-face {
     font-family: "font2";
-    src: url(assets/fonts/Merriweather-Light.ttf);
+    src: url(../fonts/Merriweather-Light.ttf);
 }
 
 $font1: "font1", sans-serif;
@@ -13,5 +13,15 @@ $font2: "font2", sans-serif;
 
 $color1: rgb(232, 232, 232);
 $color2: rgb(12, 12, 12);
-$color2: rgb(98, 98, 98);
+$color3: rgb(98, 98, 98);
 
+* {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}

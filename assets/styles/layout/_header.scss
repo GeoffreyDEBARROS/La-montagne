@@ -1,0 +1,40 @@
+
+header {
+    background: url(../images/bg.jpg) center/cover fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.header-top {
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        color: $color1;
+        text-align: center;
+        font-family: $font2;
+        font-style: italic;
+        margin-bottom: 50px;
+        line-height: 35px;
+    }
+
+    i {
+        color: $color1;
+        border: 2px solid $color1;
+        padding: 15px;
+        border-radius: 100%;
+    }
+}
+
+h1 {
+    font-family: $font1;
+    color: $color1;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
