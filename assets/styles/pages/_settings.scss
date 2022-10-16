@@ -13,15 +13,36 @@ $font2: "font2", sans-serif;
 
 $color1: rgb(232, 232, 232);
 $color2: rgb(12, 12, 12);
-$color3: rgb(98, 98, 98);
+$color3: rgb(169, 169, 169);
 
 * {
     list-style-type: none;
-}
-
-body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     position: relative;
+}
+
+html {
+    background: url(../images/bg.jpg);
+    background-repeat: repeat;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: $font1;
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    color: $color2;
+    border: 2px solid $color2;
+    border-radius: 2px;
+    background: $color1;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        color: $color1;
+        background: $color2;
+    }
 }

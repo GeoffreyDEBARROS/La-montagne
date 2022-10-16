@@ -1,0 +1,42 @@
+article {
+    display: flex;
+    height: 65vh;
+    background: $color1;
+    width: 80vw;
+    margin: auto;
+
+    .article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 35px;
+        text-align: center;
+        border-top: 1px solid $color3;
+        border-right: 1px solid $color3;
+
+        .date {
+            font-family: $font2;
+            font-size: 0.8rem;
+            color: $color2;
+        }
+
+        h4 {
+            font-family: $font1;
+            text-transform: uppercase;
+        }
+
+        img {
+            margin: 20px;
+        }
+
+        p {
+            font-family: $font2;
+            font-size: 0.8rem;
+            line-height: 30px;
+            width: 75%;
+        }
+    }
+
+    
+}
