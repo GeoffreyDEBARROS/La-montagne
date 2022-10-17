@@ -201,4 +201,94 @@ article .article p {
   font-size: 0.8rem;
   line-height: 30px;
   width: 75%;
+}
+
+footer {
+  background: rgb(232, 232, 232);
+  width: 80vw;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  height: 55vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+footer .footer-left {
+  border-right: 1px solid rgba(152, 151, 151, 0.486);
+}
+footer .footer-left form {
+  height: 100%;
+  width: 85%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+footer .footer-left form label {
+  font-family: "font1", sans-serif;
+  font-size: 0.6rem;
+  color: rgba(89, 89, 89, 0.942);
+  text-transform: uppercase;
+}
+footer .footer-left form input {
+  margin: 15px 0 15px 0;
+  height: 35px;
+  width: 100%;
+  border: 1px solid rgba(120, 119, 119, 0.486);
+  background: none;
+}
+footer .footer-left form textarea {
+  width: 100%;
+  margin: 15px 0 15px 0px;
+  resize: none;
+  height: 200px;
+  border: 1px solid rgba(120, 119, 119, 0.486);
+  background: none;
+}
+footer .footer-left form button {
+  border: 2px solid rgba(120, 119, 119, 0.794);
+  color: rgba(89, 89, 89, 0.942);
+  margin-top: 22px;
+}
+footer .footer-left form button:hover {
+  color: rgb(232, 232, 232);
+  background: rgba(89, 89, 89, 0.942);
+}
+footer .footer-right {
+  padding: 30px;
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+footer .footer-right .contact {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  align-items: center;
+  border-bottom: 1px solid rgba(120, 119, 119, 0.486);
+}
+footer .footer-right .contact .social-icon ul {
+  display: flex;
+}
+footer .footer-right .contact .social-icon ul li {
+  margin: 0 15px;
+  border: 1px solid rgba(120, 119, 119, 0.486);
+  border-radius: 1000px;
+}
+footer .footer-right .contact .social-icon ul li:hover {
+  color: rgb(232, 232, 232);
+  background: rgb(12, 12, 12);
+}
+footer .footer-right .contact .social-icon ul li i {
+  padding: 10px;
+}
+footer .left-p {
+  font-family: "font1", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: rgba(89, 89, 89, 0.942);
+}
+footer .right-p {
+  font-family: "font2", sans-serif;
+  font-size: 0.6rem;
+  line-height: 30px;
+  color: rgba(89, 89, 89, 0.942);
 }/*# sourceMappingURL=index.css.map */
