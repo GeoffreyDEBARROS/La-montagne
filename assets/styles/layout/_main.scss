@@ -36,3 +36,21 @@
         text-align: center;
     }
 }
+
+@media screen and (max-width:834px) {
+    .img-container img{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:682px) {
+    .img-container img{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:485px) {
+    .img-container img{
+        height: 200px;
+    }
+}

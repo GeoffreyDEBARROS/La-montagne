@@ -66,3 +66,23 @@
         }
     }
 }
+
+@media screen and (max-width:830px) {
+    nav {
+        .ul-social {
+            display: none;
+        }
+        .ul-nav {
+            justify-content: space-around;
+        }
+    }
+}
+
+@media screen and (max-width:485px) {
+    nav {
+        .ul-nav li {
+            font-size: 0.6rem;
+        }
+    }
+}
+            

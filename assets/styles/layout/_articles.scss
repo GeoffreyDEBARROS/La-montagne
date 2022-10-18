@@ -40,3 +40,18 @@ article {
 
     
 }
+
+@media screen and (max-width:1120px) {
+    article {
+        .article-img img{
+            width: 250px;
+        }
+    }
+}
+
+@media screen and ( max-width:900px) {
+    article {
+        display: block;
+        height: auto;
+    }
+}

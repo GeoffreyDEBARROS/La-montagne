@@ -100,3 +100,32 @@ footer {
         color: rgba(89, 89, 89, 0.942)
     }
 }
+
+@media screen and ( max-width:900px) {
+    footer {
+        display: block;
+        height: 100vh;
+        .footer-left {
+            padding-top: 20px;
+        }
+        .footer-right {
+            height: 400px;
+            background: $color1;
+            
+        }
+    }
+}
+
+@media screen and (max-width:452px) {
+    .contact {
+        .social-icon {
+            ul {             
+                li {
+                    i {
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+        }
+    }
+}
